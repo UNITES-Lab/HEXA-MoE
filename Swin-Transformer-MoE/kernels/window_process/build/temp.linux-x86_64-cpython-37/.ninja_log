@@ -1,0 +1,10 @@
+# ninja log v5
+0	18731	1722683657847263367	/public/DATA/lsq/Swin-Transformer/kernels/window_process/build/temp.linux-x86_64-cpython-37/swin_window_process.o	5a00be65e72fe1c6
+1	39639	1722683678759593820	/public/DATA/lsq/Swin-Transformer/kernels/window_process/build/temp.linux-x86_64-cpython-37/swin_window_process_kernel.o	b47353e7a6f4de9c
+2	19156	1723631000275746000	/mnt/workspace/gongkaixiong/fws/lsq/Swin-Transformer/kernels/window_process/build/temp.linux-x86_64-cpython-37/swin_window_process.o	ad62607ecb9d9483
+5	42567	1723631023706253167	/mnt/workspace/gongkaixiong/fws/lsq/Swin-Transformer/kernels/window_process/build/temp.linux-x86_64-cpython-37/swin_window_process_kernel.o	4e1260022be3d27
+15	28472	1727070824264816000	/mnt/workspace/gongkaixiong/fws/lsq/Swin-Transformer/kernels/window_process/build/temp.linux-x86_64-cpython-37/swin_window_process.o	ee96a8200fd6449b
+17	52216	1727070848021354000	/mnt/workspace/gongkaixiong/fws/lsq/Swin-Transformer/kernels/window_process/build/temp.linux-x86_64-cpython-37/swin_window_process_kernel.o	2f102ebe2adb5dfb
+2625	34301	1727780267717484000	/mnt/workspace/gongkaixiong/fws/lsq/Swin-Transformer/kernels/window_process/build/temp.linux-x86_64-cpython-37/swin_window_process.o	7ff9e370b106fc5c
+2628	59541	1727780292963152106	/mnt/workspace/gongkaixiong/fws/lsq/Swin-Transformer/kernels/window_process/build/temp.linux-x86_64-cpython-37/swin_window_process_kernel.o	a1d19885c8e3bdee
+1109	61371	1727969350864170000	/mnt/workspace/gongkaixiong/fws/lsq/Swin-Transformer/kernels/window_process/build/temp.linux-x86_64-cpython-37/swin_window_process_kernel.o	a1d19885c8e3bdee
