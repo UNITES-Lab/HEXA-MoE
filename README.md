@@ -6,7 +6,7 @@ Code for the paper "HEXA-MoE: Efficient and Heterogeneous-aware MoE Acceleration
 
 ## Overview
 
-
+In this paper, we 
 
 ## Code & Usage
 
