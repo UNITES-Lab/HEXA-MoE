@@ -6,7 +6,7 @@ Code for the paper "HEXA-MoE: Efficient and Heterogeneous-aware MoE Acceleration
 
 ## Overview
 
-In this paper, we 
+In this paper, we propose to reformulate MoE computing with expert-specific operators as an alternative to general matrix multiplication (GeMM) or grouped GeMM.
 
 ## Code & Usage
 
