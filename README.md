@@ -1,4 +1,4 @@
-# HEXA-MoE: Efficient and Heterogeneous-aware MoE Acceleration with zero computation redundancy
+# HEXA-MoE: Efficient and Heterogeneous-aware MoE Acceleration with ZERO Computation Redundancy
 
 Code for the paper "HEXA-MoE: Efficient and Heterogeneous-aware MoE Acceleration with zero computation redundancy"
 
@@ -22,7 +22,7 @@ We provide HEXA-MoE implementations with both [Triton](./hexa_moe_triton/) and [
 
     # In the class for model definition
     _gate_type = {'type': 'top', 'k': 1, 'gate_noise': 1.0, 'fp32_gate': True}
-    self.cascaded_moe = t_moe.MoE_Cascaded(
+    self.cascaded_moe = hmoe.MoE_Cascaded(
         gate_type=_gate_type,
         model_dim_list=[128,128,128,128],
         moe_idx_list=[2,3],
