@@ -6,7 +6,11 @@ Code for the paper "HEXA-MoE: Efficient and Heterogeneous-aware MoE Acceleration
 
 ## Overview
 
-In this paper, we propose to reformulate MoE computing with expert-specific operators as an alternative to general matrix multiplication (GeMM) or grouped GeMM.
+In this paper, we propose to reformulate MoE computing with expert-specific operators as an alternative to general matrix multiplication (GeMM) or grouped GeMM. Current MoE librares are all built upon GeMM, where dispatch and combine operations are required to calibrate the workload of each expert. However, this requires token padding or discarding, which hampers the computation efficiency as well as model performance. Moreover, current MoE libraries mainly adopt expert parallelism to distribute MoE layer parameters to different devices due to its sheer size, which depends on homogeneous devices. However, if we wanna adapt MoE computing to heterogeneous devices, expert parallelism turn to be complicated and impractical. This is because we need to re-arrange computation allocation on different devices to utilize total computing capacity better, but this is difficult for expert parallelism due to its inherent dynamism. To achieve both heterogeneous-awareness and high computation efficiency for MoE model, we propose to re-factor MoE computing with expert-specific operators, and adapt it to data- and model- centric configurations considering different workload scale. We present a comparison between conventional GeMM-based and our expert-specific operators-based MoE computing for both forward and backward propagation. Experiments with Swin-MoE on homogeneous devices show that our method can reduce 10%-48% memory consumption while achieve 0.5-4.3× speed up compared to Tutel and MegaBlocks. Experiments on heterogeneous devices demonstrate that our method can substaintially minimize the average latency. 
+
+<div align="middle">
+    <img src=./figures/formula.jpg width=96% />
+</div>
 
 ## Code & Usage
 
