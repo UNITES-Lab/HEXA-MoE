@@ -2,7 +2,11 @@
 
 Code for the paper "HEXA-MoE: Efficient and Heterogeneous-aware MoE Acceleration with zero computation redundancy"
 
-- Authors: Shuqing Luo, Jie Peng, Pingzhi Li, Hanrui Wang and Tianlong Chen
+[![Arxiv](https://img.shields.io/badge/arXiv-2411.01288-B31B1B.svg)][#arxiv-paper-package]
+
+[#arxiv-paper-package]: https://arxiv.org/abs/2411.01288
+
+- Authors: [Shuqing Luo](https://luoshuqing2001.github.io/), [Jie Peng](https://openreview.net/profile?id=~Jie_Peng4), [Pingzhi Li](https://pingzhili.github.io/), [Hanrui Wang]([url](https://www.hanruiwang.com/)) and [Tianlong Chen](https://tianlong-chen.github.io/)
 
 ## Overview
 
