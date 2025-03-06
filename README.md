@@ -6,7 +6,7 @@ Code for the paper "HEXA-MoE: Efficient and Heterogeneous-aware MoE Acceleration
 
 [#arxiv-paper-package]: https://arxiv.org/abs/2411.01288
 
-- Authors: [Shuqing Luo](https://luoshuqing2001.github.io/), [Jie Peng](https://openreview.net/profile?id=~Jie_Peng4), [Pingzhi Li](https://pingzhili.github.io/), [Hanrui Wang]([url](https://www.hanruiwang.com/)) and [Tianlong Chen](https://tianlong-chen.github.io/)
+- Authors: [Shuqing Luo](https://luoshuqing2001.github.io/), [Jie Peng](https://openreview.net/profile?id=~Jie_Peng4), [Pingzhi Li](https://pingzhili.github.io/), [Hanrui Wang](https://www.hanruiwang.com/) and [Tianlong Chen](https://tianlong-chen.github.io/)
 
 ## Overview
 
